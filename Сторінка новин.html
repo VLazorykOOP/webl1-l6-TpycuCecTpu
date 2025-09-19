@@ -1,0 +1,188 @@
+<!--тег: тег: <abbr> атрибути -dir, style; тег: <cite> атрибути -id, title; тег: <dfn> атрибути -class,
+lang; тег: <code> атрибути -title, id; тег: <pre> атрибути -title, id; тег: <address> атрибути -id,
+title; тег: <blockquote> атрибути -dir, style, title; тег: <img> атрибути - border, hspace,
+vspace, ismap; -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сторінка новин</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Story+Script"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: #fff8e7;
+        font-family: Arial, sans-serif;
+        padding: 50px;
+      }
+
+      .btn-bordo {
+        color: white;
+        background-color: #800020;
+        border: 1px solid #800020;
+        transition: 0.3s;
+      }
+
+      .btn-bordo:hover {
+        background-color: #f7d6d6;
+        color: #800020;
+        border-color: #800020;
+      }
+      h1 {
+        font-family: "Story Script", cursive;
+        font-size: 48px;
+        color: #800020;
+        text-align: center;
+      }
+      h5 {
+        font-family: "Lora", serif;
+        text-align: left;
+        color: #800020;
+      }
+      p {
+        color: #800020;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Новини компанії</h1>
+    <div class="container text-center">
+      <div class="btn-group mt-4" role="group">
+        <div class="btn-group">
+          <a
+            href="http://127.0.0.1:5500/lab1.html"
+            type="button"
+            class="btn btn-bordo"
+            >Про мене</a
+          >
+          <a
+            href="http://127.0.0.1:5500/%D0%A1%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0%20%D0%BD%D0%BE%D0%B2%D0%B8%D0%BD.html"
+            type="button"
+            class="btn btn-bordo"
+            >Новини</a
+          >
+          <a
+            href="http://127.0.0.1:5500/%D0%92%D0%B5%D0%B1%20%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0%20%D0%BF%D1%80%D0%BE%20%D1%84%D1%96%D1%80%D0%BC%D1%83.html"
+            type="button"
+            class="btn btn-bordo"
+            >Фірма</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <hr style="border: 1px solid #800020; position: relative" />
+
+    <div style="text-align: center">
+      <h5><b>Ноутбуки майбутнього: що чекає ринок у 2026 році</b></h5>
+      <img
+        src="ноут.jpg"
+        alt="error"
+        style="
+          width: 250px;
+          float: right;
+          margin: 0 15px 15px 0;
+          border-radius: 12px;
+        "
+        border="1"
+        hspace="10"
+        vspace="10"
+        ismap
+      />
+
+      <p>
+        Останні роки ноутбуки стають універсальнішими та розумнішими. У 2025
+        році стрімко зросла популярність
+        <dfn class="definition" lang="uk" style="color: #800020"
+          >гібридних моделей</dfn
+        >
+        із гнучкими екранами, які легко переходять у режим планшета. Аналітики
+        прогнозують, що вже у 2026 році такі пристрої займуть до 20% ринку.
+        Виробники активно впроваджують штучний інтелект завдяки
+        <abbr dir="ltr" style="color: #800020">NPU-модулям</abbr>. Це дозволяє
+        економити енергію, краще охолоджувати пристрої та швидше обробляти
+        медіа.
+      </p>
+
+      <p>
+        Нові моделі ноутбуків отримують покращені батареї, які дозволяють
+        працювати весь день без підзарядки. Дисплеї стають яскравішими та
+        енергоефективнішими, з високою роздільною здатністю. Вбудовані камери та
+        мікрофони забезпечують кращу якість відеоконференцій. Системи
+        охолодження працюють тихіше і ефективніше, навіть під високим
+        навантаженням. Багато виробників інтегрують нові сенсорні технології для
+        більш інтуїтивного керування.
+      </p>
+
+      <p>
+        Ноутбуки отримують швидші процесори, що дозволяють виконувати складні
+        завдання без затримок. Інтерфейси стають універсальнішими, підтримуючи
+        нові стандарти підключення. Корпуси виготовляють із легких і міцних
+        матеріалів, що робить пристрої зручними для транспортування.
+        Розширюються можливості персоналізації через налаштування кольорів і
+        підсвітки клавіатури. Як зазначає
+        <cite
+          id="tech-expert"
+          title="Експерт з технологій"
+          style="color: #800020"
+          >TechFuture</cite
+        >, розвиток інтерфейсів буде ключовим фактором.
+      </p>
+
+      <div style="clear: both"></div>
+
+      <p>
+        Також розвиваються «зелені» технології: використання перероблених
+        матеріалів і плани повної відмови від пластику до 2030 року. Для бізнесу
+        важливим стало впровадження хмарних рішень: більшість даних автоматично
+        зберігатиметься у захищених корпоративних хмарах. Прогнозують, що у 2026
+        році ноутбуки стануть не просто робочими машинами, а
+        багатофункціональними центрами продуктивності.
+      </p>
+
+      <blockquote dir="ltr" style="color: #800020" title="Прогноз експерта">
+        "До 2026 року ноутбуки перетворяться на багатофункціональні центри
+        продуктивності."
+      </blockquote>
+
+      <p>
+        Приклад коду оптимізації:
+        <code title="javascript code" id="sample1" style="color: #800020"
+          >console.log("Hello, world!");</code
+        >
+      </p>
+
+      <pre title="code block" id="block1" style="color: #800020">
+console.log("Hello, world!");
+      </pre>
+
+      <address id="company-address" title="Контакти" style="color: #800020">
+        Київ, вул. Технологічна, 12<br />
+        info@techfuture.com
+      </address>
+    </div>
+
+    <hr style="border: 1px solid #800020; position: relative" />
+
+    <div class="container text-center">
+      <div class="btn-group mt-4" role="group">
+        <div class="btn-group">
+          <button type="button" class="btn btn-bordo">Раніше</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
